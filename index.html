@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young M Insight | Fidelis chukwudulue – Data Analyst</title>
+
+    <meta name="description" content="Young M Insight – Fidelis chukwudulue, Data Analyst specializing in Excel, MySQL, and Power BI. Turning raw data into meaningful decisions.">
+    <meta name="keywords" content="Data Analyst, Power BI, MySQL, Excel, Dashboard, Fidelis chukwudulue, Young M Insight, Nigeria">
+    <meta name="author" content="Fidelis chukwudulue">
+
+    <meta property="og:title" content="Young M Insight | Fidelis chukwudulue">
+    <meta property="og:description" content="Data Analyst Portfolio – Transforming raw data into meaningful insights.">
+    <meta property="og:image" content="project-images/logo.jpg">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@youngminsight">
+    <meta name="twitter:title" content="Young M Insight | Fidelis chukwudulue">
+    <meta name="twitter:description" content="Data Analyst Portfolio – Transforming raw data into meaningful insights.">
+    <meta name="twitter:image" content="project-images/logo.jpg">
+
+    <link rel="icon" type="image/jpeg" href="project-images/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============================================================
+         PAGE LOADER
+    ============================================================ -->
+    <div id="loader">
+        <div class="loader-content">
+            <img src="project-images/logo.jpg" alt="Young M Insight Logo">
+            <p>Young M Insight</p>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+
+    <!-- ============================================================
+         NAVIGATION
+    ============================================================ -->
+    <nav class="navbar">
+        <img src="project-images/logo.jpg" class="logo" alt="Young M Insight">
+        <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" role="button" tabindex="0">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+      <!-- ============================================================
+         HERO SECTION
+         Video plays in the background.
+         All text sits on top via z-index in CSS.
+    ============================================================ -->
+    <header class="hero">
+
+        <!-- Background video — saved as project-images/hero-bg.mp4 -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="project-images/hero-bg.mp4" type="video/mp4">
+        </video>
+
+        <!-- Dark overlay so text stays readable over the video -->
+        <div class="hero-overlay-bg"></div>
+
+        <!-- ALL the visible text and buttons -->
+        <div class="hero-overlay">
+            <p class="hero-eyebrow">Data Analyst · Nigeria</p>
+            <h1>Young M Insight</h1>
+            <p class="hero-sub"><span id="typed-text"></span><span class="cursor">|</span></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="hero-btn">View My Work</a>
+                <a href="#contact" class="hero-btn outline">Hire Me</a>
+            </div>
+        </div>
+
+        <!-- Decorative corner brackets -->
+        <span class="hero-corner tl"></span>
+        <span class="hero-corner tr"></span>
+        <span class="hero-corner bl"></span>
+        <span class="hero-corner br"></span>
+
+    </header>
+
+    <!-- ============================================================
+         PROFILE CAROUSEL
+    ============================================================ -->
+    <section class="carousel-section" aria-label="Profile photo gallery">
+        <div class="carousel-viewport">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide"><img src="profile-pics/young1.jpg" alt="Fidelis chukwudulue"></div>
+                <div class="carousel-slide"><img src="profile-pics/young2.jpg" alt="Fidelis chukwudulue"></div>
+                <div class="carousel-slide"><img src="profile-pics/young3.jpg" alt="Fidelis chukwudulue"></div>
+                <div class="carousel-slide"><img src="profile-pics/young4.jpg" alt="Fidelis chukwudulue"></div>
+                <div class="carousel-slide"><img src="profile-pics/young5.jpg" alt="Fidelis chukwudulue"></div>
+              </div>
+        </div>
+        <button class="carousel-arrow prev" id="carouselPrev" aria-label="Previous">&#8592;</button>
+        <button class="carousel-arrow next" id="carouselNext" aria-label="Next">&#8594;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+
+    <!-- ============================================================
+         ABOUT
+    ============================================================ -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            My name is <strong>Fidelis chukwudulue</strong>, founder of <strong>Young M Insight</strong>.
+            I specialize in transforming raw data into meaningful insights that drive smart decisions.
+        </p>
+        <p>
+            I work with data to uncover patterns, detect trends, and present results through
+            dashboards that support smart decision-making. Whether it's cleaning messy datasets,
+            writing SQL queries, or building interactive Power BI reports I turn numbers into stories.
+        </p>
+        <div class="skills-container">
+            <div>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Data Analysis</li>
+                    <li>Data Cleaning</li>
+                    <li>Data Visualization</li>
+                    <li>Dashboard Development</li>
+                    <li>Statistical Reporting</li>
+                    <li>Trend Detection</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Tools</h3>
+                <ul>
+                    <li>Excel</li>
+                    <li>MySQL</li>
+                    <li>Power BI</li>
+                    <li>Ms word</li>
+                    <li>Powerpoint presentation</li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         STATS
+    ============================================================ -->
+    <section class="stats-section" aria-label="Key statistics">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number" data-target="2">0</span>
+                <span class="stat-suffix">+</span>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="4">0</span>
+                <p>Tools Mastered</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="1">0</span>
+                <span class="stat-suffix">+</span>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="60">0</span>
+                <span class="stat-suffix">%</span>
+                <p>Data Driven</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         PROCESS SECTION  ← NEW
+         How I Work: 4 numbered steps in a clean timeline layout.
+    ============================================================ -->
+    <section id="process" class="section">
+        <h2>How I Work</h2>
+        <p class="section-subtitle">A clear, proven process that turns your raw data into actionable decisions.</p>
+
+        <div class="process-grid">
+
+            <div class="process-step">
+                <div class="process-number">01</div>
+                <div class="process-content">
+                    <h3>Collect &amp; Understand</h3>
+                    <p>I start by listening. I take time to understand your business, your goals, and the data you have available so the analysis is shaped by what actually matters to you.</p>
+                </div>
+            </div>
+
+            <div class="process-connector"></div>
+
+            <div class="process-step">
+                <div class="process-number">02</div>
+                <div class="process-content">
+                    <h3>Clean &amp; Prepare</h3>
+                    <p>Raw data is rarely ready. I remove errors, handle missing values, fix inconsistencies, and structure the dataset so it is reliable and ready for meaningful analysis.</p>
+                </div>
+            </div>
+
+            <div class="process-connector"></div>
+
+            <div class="process-step">
+                <div class="process-number">03</div>
+                <div class="process-content">
+                    <h3>Analyse &amp; Discover</h3>
+                    <p>Using Excel, MySQL, and Power BI, I dig into the data identifying patterns, trends, outliers, and relationships that answer your core questions.</p>
+                </div>
+            </div>
+
+            <div class="process-connector"></div>
+
+            <div class="process-step">
+                <div class="process-number">04</div>
+                <div class="process-content">
+                    <h3>Present &amp; Deliver</h3>
+                    <p>I present findings in a clear, visual format dashboards, charts, or written reports so you can understand the story behind your data and act on it confidently.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICES
+    ============================================================ -->
+    <section id="services" class="section">
+        <h2>What I Can Do For You</h2>
+        <p class="section-subtitle">Here's how I can help your business or project grow with data.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Analysis</h3>
+                <p>I dig into your raw data to find patterns, outliers, and trends that answer your business questions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🧹</div>
+                <h3>Data Cleaning</h3>
+                <p>I remove errors, duplicates, and inconsistencies so your data is reliable and ready for analysis.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📈</div>
+                <h3>Dashboard Development</h3>
+                <p>I build interactive Power BI dashboards that make your data easy to understand at a glance.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🗄️</div>
+                <h3>SQL Reporting</h3>
+                <p>I write efficient MySQL queries to extract, filter, and summarize data from large databases.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📋</div>
+                <h3>Excel Modelling</h3>
+                <p>I build spreadsheet models, pivot tables, and charts that turn complex figures into clear reports.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💡</div>
+                <h3>Insight Reporting</h3>
+                <p>I deliver written reports that translate data findings into clear, actionable recommendations.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         PROJECTS
+    ============================================================ -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p class="section-subtitle">A selection of real-world data projects I've completed.</p>
+
+        <div class="project">
+            <h3>Student Performance Analysis</h3>
+            <p class="project-desc">
+                Analyzed student academic records to identify performance trends, detect at-risk students,
+                and provide actionable recommendations for educators using Excel and Power BI.
+            </p>
+            <div class="project-gallery">
+                <img src="project-images/student-analysis.png" alt="Student Performance Analysis Dashboard">
+                <img src="project-images/student-chart.png" alt="Student Performance Chart">
+                <img src="project-images/student-insight.png" alt="Student Performance Insight">
+            </div>
+            <div class="project-tags">
+                <span>Excel</span><span>Education Data</span>
+            </div>
+            <div class="btn-group">
+                <a href="https://drive.google.com/drive/folders/12qHMS1U5wDqWLozrChEdEDqt35jANFcp?usp=drive_link"
+                   target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Transaction Analysis</h3>
+            <p class="project-desc">
+                Examined financial transaction records to uncover spending patterns, flag anomalies,
+                and build an interactive dashboard for real-time monitoring using MySQL and Power BI.
+            </p>
+            <div class="project-gallery">
+                <img src="project-images/transaction-sql1.png" alt="Transaction SQL Query 1">
+                <img src="project-images/transaction-sql2.png" alt="Transaction SQL Query 2">
+                <img src="project-images/transaction-sql3.png" alt="Transaction SQL Query 3">
+                <img src="project-images/transaction-sql4.png" alt="Transaction SQL Query 4">
+                <img src="project-images/transaction-sql5.png" alt="Transaction SQL Query 5">
+                <img src="project-images/transaction-sql6.png" alt="Transaction SQL Query 6">
+                <img src="project-images/transaction-dashboard1.png" alt="Transaction Dashboard 1">
+                <img src="project-images/transaction-dashboard2.png" alt="Transaction Dashboard 2">
+                <img src="project-images/transaction-dashboard3.png" alt="Transaction Dashboard 3">
+            </div>
+            <div class="project-tags">
+                <span>MySQL</span><span>Power BI</span><span>Finance Data</span>
+            </div>
+            <div class="btn-group">
+                <a href="https://drive.google.com/drive/folders/1EkOWKmUODzfsQ6rjUH3fUNnLjkpNJKYI?usp=drive_link"
+                   target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+                <a href="project-files/transaction-analysis-report.docx" class="btn outline" download>Download Report</a>
+            </div>
+        </div>
+
+        <!--
+        ADD NEW PROJECT HERE — copy block below, remove comment tags, fill in details
+        <div class="project">
+            <h3>Project Title</h3>
+            <p class="project-desc">Description of the project.</p>
+            <div class="project-gallery">
+                <img src="project-images/your-image.png" alt="Project Screenshot">
+            </div>
+            <div class="project-tags"><span>Tool</span></div>
+            <div class="btn-group">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+            </div>
+        </div>
+        -->
+    </section>
+
+
+    <!-- ============================================================
+         CERTIFICATIONS
+         HOW TO SHOW YOUR CERTIFICATE WHEN YOU GET IT:
+         1. Save certificate image to project-images/ e.g. cert-excel.jpg
+         2. Find the matching cert-card below
+         3. Delete the opening <!-- and closing one around the cert-image-box
+         4. Update the src to your image file path
+    ============================================================ -->
+    <section id="certifications" class="section">
+        <h2>Certifications &amp; Training</h2>
+        <p class="section-subtitle">Continuous learning keeps my skills sharp and current.</p>
+        <div class="cert-grid">
+
+            <div class="cert-card">
+                <div class="cert-icon">🎓</div>
+                <h3>Data Analysis with Excel</h3>
+                <p>Completed advanced Excel training covering pivot tables, VLOOKUP, data modelling, and reporting.</p>
+                <!--
+                UNCOMMENT WHEN YOU HAVE YOUR EXCEL CERTIFICATE — save as project-images/cert-excel.jpg
+                <div class="cert-image-box">
+                    <img src="project-images/cert-excel.jpg" alt="Excel Certificate">
+                    <a href="project-images/cert-excel.jpg" target="_blank" class="cert-view-btn">View Certificate</a>
+                </div>
+                -->
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon">🗄️</div>
+                <h3>MySQL for Data Analysis</h3>
+                <p>Trained in writing SQL queries for data extraction, aggregation, joins, and subqueries.</p>
+                <!--
+                UNCOMMENT WHEN YOU HAVE YOUR MYSQL CERTIFICATE — save as project-images/cert-mysql.jpg
+                <div class="cert-image-box">
+                    <img src="project-images/cert-mysql.jpg" alt="MySQL Certificate">
+                    <a href="project-images/cert-mysql.jpg" target="_blank" class="cert-view-btn">View Certificate</a>
+                </div>
+                -->
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon">📊</div>
+                <h3>Power BI Dashboards</h3>
+                <p>Completed Power BI training in DAX, data modelling, relationships, and interactive visualizations.</p>
+                <!--
+                UNCOMMENT WHEN YOU HAVE YOUR POWER BI CERTIFICATE — save as project-images/cert-powerbi.jpg
+                <div class="cert-image-box">
+                    <img src="project-images/cert-powerbi.jpg" alt="Power BI Certificate">
+                    <a href="project-images/cert-powerbi.jpg" target="_blank" class="cert-view-btn">View Certificate</a>
+                </div>
+                -->
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         TESTIMONIALS
+    ============================================================ -->
+    <section id="testimonials" class="testimonials-section">
+        <h2>What People Say</h2>
+        <p class="section-subtitle">Feedback from clients and collaborators.</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Fidelis delivered a clean, professional dashboard that made our data instantly understandable. Highly recommend his work."</p>
+                <div class="testimonial-author">
+                    <strong>— A. Okafor</strong>
+                    <span>Business Owner</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"His student performance report was thorough and insightful. He clearly knows how to turn numbers into useful decisions."</p>
+                <div class="testimonial-author">
+                    <strong>— D. Eze</strong>
+                    <span>School Administrator</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Young M Insight helped us understand our transaction data in a way we never could before. Very professional service."</p>
+                <div class="testimonial-author">
+                    <strong>— T. Adeyemi</strong>
+                    <span>Finance Team Lead</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         INSIGHTS / BLOG  ← NEW
+         Short articles showing your expertise.
+         Update the content, dates, and links when you publish real posts.
+         To add more articles: copy one .insight-card block and paste it in.
+    ============================================================ -->
+    <section id="insights" class="section">
+        <h2>Insights</h2>
+        <p class="section-subtitle">Short reads on data, analytics, and lessons from real projects.</p>
+
+        <div class="insights-grid">
+
+            <article class="insight-card">
+                <div class="insight-meta">
+                    <span class="insight-tag">Data Cleaning</span>
+                    <span class="insight-date">March 2026</span>
+                </div>
+                <h3>Why Clean Data Is the Foundation of Every Good Analysis</h3>
+                <p>Garbage in, garbage out. Before any chart or dashboard can be trusted, the underlying data must be clean, consistent, and complete. Here's how I approach data cleaning on every project.</p>
+                <div class="insight-footer">
+                    <!--
+                    UNCOMMENT AND UPDATE LINK WHEN YOU PUBLISH THIS ARTICLE
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="insight-link">Read Article →</a>
+                    -->
+                    <span class="insight-coming">Coming Soon</span>
+                </div>
+            </article>
+
+            <article class="insight-card">
+                <div class="insight-meta">
+                    <span class="insight-tag">Power BI</span>
+                    <span class="insight-date">April 2026</span>
+                </div>
+                <h3>5 Dashboard Design Mistakes That Make Your Data Harder to Read</h3>
+                <p>A dashboard cluttered with numbers is not insight — it's noise. I break down the five most common design mistakes in Power BI and how to fix each one for clearer, more actionable reports.</p>
+                <div class="insight-footer">
+                    <!--
+                    UNCOMMENT AND UPDATE LINK WHEN YOU PUBLISH THIS ARTICLE
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="insight-link">Read Article →</a>
+                    -->
+                    <span class="insight-coming">Coming Soon</span>
+                </div>
+            </article>
+
+            <article class="insight-card">
+                <div class="insight-meta">
+                    <span class="insight-tag">SQL</span>
+                    <span class="insight-date">May 2026</span>
+                </div>
+                <h3>From Spreadsheet to Database: When to Make the Switch to MySQL</h3>
+                <p>Excel is powerful, but it has limits. If your data is growing, duplicating, or slowing down your team, it may be time to move to a relational database. Here is how to know when you're ready.</p>
+                <div class="insight-footer">
+                    <!--
+                    UNCOMMENT AND UPDATE LINK WHEN YOU PUBLISH THIS ARTICLE
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="insight-link">Read Article →</a>
+                    -->
+                    <span class="insight-coming">Coming Soon</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         CONTACT
+         Icons: circular, brand colours
+         WhatsApp=green  Gmail=red  Twitter/X=black+white  GitHub=charcoal
+    ============================================================ -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="section-subtitle">Have a project in mind? Let's talk data.</p>
+
+        <div class="contact-grid">
+
+            <a href="https://wa.me/2349029080284" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-icon-wrap whatsapp">
+                    <img src="project-images/whatsapp-icon.png" alt="WhatsApp">
+                </div>
+                <strong class="contact-label">WhatsApp</strong>
+                <span>09029080284</span>
+            </a>
+
+            <a href="mailto:chibuikefidelisnzeakor@gmail.com" class="contact-card">
+                <div class="contact-icon-wrap gmail">
+                    <img src="project-images/gmail-icon.jpg" alt="Gmail">
+                </div>
+                <strong class="contact-label">Gmail</strong>
+                <span>chibuikefidelisnzeakor@gmail.com</span>
+            </a>
+
+            <!-- Twitter/X — black circle with white X logo -->
+            <a href="https://twitter.com/youngminsight" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-icon-wrap twitter-x">
+                    <!-- SVG X logo so it renders correctly in black/white -->
+                    <svg viewBox="0 0 24 24" fill="white" width="28" height="28" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </div>
+                <strong class="contact-label">Twitter / X</strong>
+                <span>@youngminsight</span>
+            </a>
+
+            <a href="https://github.com/fidelis-analyst" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-icon-wrap github">
+                    <img src="project-images/Github-Logo.png" alt="GitHub">
+                </div>
+                <strong class="contact-label">GitHub</strong>
+                <span>fidelis-analyst</span>
+            </a>
+
+        </div>
+
+        <div class="cv-download">
+            <p>Want to know more about my experience?</p>
+            <a href="project-files/fidelis-nzeakor-cv.pdf" class="btn" download>⬇ Download My CV</a>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         FOOTER
+    ============================================================ -->
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#projects">Projects</a>
+            <a href="#insights">Insights</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>© 2026 <span>Young M Insight</span> · Fidelis chukwudulue · All rights reserved.</p>
+        <p class="footer-tagline">Turning data into decisions.</p>
+    </footer>
+
+
+    <button id="back-to-top" title="Back to top" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
